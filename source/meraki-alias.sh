@@ -4,6 +4,8 @@ export MACAGENTREPO=$REPODIR/sm-agent-mac
 export MACAGENTLOGDIR=/var/log
 export LIBRARYPREFS=/Library/Preferences
 export LAUNCHDAEMONDIR=/Library/LaunchDaemons
+export MACAGENTINSTALLDIR=/Library/Application\ Support/meraki
+export MINISHAREDDIR=/Volumes/Shared
 
 # change to sm mac agent repo
 alias cdag='cd $MACAGENTREPO'
@@ -22,3 +24,9 @@ alias cdlp='cd $LIBRARYPREFS'
 
 # change to the launch daemons directory
 alias cdld='cd $LAUNCHDAEMONDIR'
+
+# change to the agent install directory
+alias cdins='cd $MACAGENTINSTALLDIR'
+
+# change to shared directory with mac-mini
+alias cdmini='cd $MINISHAREDDIR'
