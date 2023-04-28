@@ -30,3 +30,8 @@ alias cdins='cd $MACAGENTINSTALLDIR'
 
 # change to shared directory with mac-mini
 alias cdmini='cd $MINISHAREDDIR'
+
+# open an SM jira ticket in the browser
+function jira() {
+    open "https://jira.ikarem.io/browse/SM-$1"
+}
