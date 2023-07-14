@@ -11,3 +11,6 @@ alias rm='rm -iv'
 
 # Reload zsh
 alias szsh='source ~/.zshrc'
+
+# MITMProxy
+alias mmp='mitmproxy'

@@ -13,6 +13,9 @@ alias cdag='cd $MACAGENTREPO'
 # open the sm mac agent xcode project
 alias openag='cd $MACAGENTREPO && open m_agent.xcodeproj'
 
+# open the virtual machine app
+alias openvm='cd $REPODIR && cd apple-vm && open macOSVirtualMachineSampleApp.xcodeproj'
+
 # change to the m_agent log directory
 alias cdlog='cd $MACAGENTLOGDIR'
 
@@ -35,3 +38,9 @@ alias cdmini='cd $MINISHAREDDIR'
 function jira() {
     open "https://jira.ikarem.io/browse/SM-$1"
 }
+
+# ssh
+alias jump='ssh -A sdg0'
+alias dev157='ssh -A dev157'
+alias shadd='ssh-add'
+alias shlist='ssh-add -l'
