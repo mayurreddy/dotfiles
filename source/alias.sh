@@ -26,3 +26,7 @@ proxytoggle() {
     echo "Web proxies turned off"
   fi
 }
+
+# Python
+alias py='python3'
+alias pip='pip3'
