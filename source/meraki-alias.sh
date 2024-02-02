@@ -1,6 +1,7 @@
 export HIVEDIR=~/Hive
 export REPODIR=$HIVEDIR/repos
 export MACAGENTREPO=$REPODIR/sm-agent-mac
+export MACINSTALLERREPO=$REPODIR/mac-agent-installer
 export MACAGENTLOGDIR=/var/log
 export LIBRARYPREFS=/Library/Preferences
 export LAUNCHDAEMONDIR=/Library/LaunchDaemons
@@ -12,6 +13,12 @@ alias cdag='cd $MACAGENTREPO'
 
 # open the sm mac agent xcode project
 alias openag='cd $MACAGENTREPO && open m_agent.xcodeproj'
+
+# change to sm mac agent installer repo
+alias cdmai='cd $MACINSTALLERREPO'
+
+# open the mac agent installer xcode project
+alias openmai='cd $MACINSTALLERREPO && open AgentInstallerApplication.xcodeproj'
 
 # open the virtual machine app
 alias openvm='cd $REPODIR && cd apple-vm && open macOSVirtualMachineSampleApp.xcodeproj'
