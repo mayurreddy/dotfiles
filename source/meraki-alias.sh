@@ -53,7 +53,7 @@ alias cdmini='cd $MINISHAREDDIR'
 
 # open an SM jira ticket in the browser
 function jira() {
-    open "https://jira.ikarem.io/browse/SM-$1"
+    open "https://meraki.atlassian.net/browse/SM-$1"
 }
 
 # ssh
