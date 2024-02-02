@@ -1,12 +1,22 @@
 export HIVEDIR=~/Hive
 export REPODIR=$HIVEDIR/repos
+export INSTALLERSDIR=$HIVEDIR/installers
 export MACAGENTREPO=$REPODIR/sm-agent-mac
 export MACINSTALLERREPO=$REPODIR/mac-agent-installer
 export MACAGENTLOGDIR=/var/log
 export LIBRARYPREFS=/Library/Preferences
 export LAUNCHDAEMONDIR=/Library/LaunchDaemons
-export MACAGENTINSTALLDIR=/Library/Application\ Support/meraki
+export MACAGENTINSTALLDIR=/Library/Application\ Support/Meraki
 export MINISHAREDDIR=/Volumes/Shared
+
+# change to hive dir
+alias cdhive='cd $HIVEDIR'
+
+# change to repos dir
+alias cdrepos='cd $REPODIR'
+
+# run the agent uninstaller
+alias runun='cd $INSTALLERSDIR && open Uninstall\ Meraki\ Agent.app'
 
 # change to sm mac agent repo
 alias cdag='cd $MACAGENTREPO'
