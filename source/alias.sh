@@ -8,6 +8,7 @@ alias cdds='cd $DOTFILESRC'
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -iv'
+alias lt='ls -ralt'
 
 # Reload zsh
 alias szsh='source ~/.zshrc'
